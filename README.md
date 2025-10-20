@@ -19,6 +19,10 @@ A arquitetura consiste em uma rede simples de uma única camada:
 
 ### 1. Convergência do Erro
 A convergência do erro é a evidência mais forte do aprendizado. O erro médio, que se inicia alto, caiu drasticamente nas primeiras épocas, estabilizando-se em um valor muito próximo de zero. Isso demonstra que a rede convergiu de forma rápida e estável.
+## 📉 Resultado da Convergência (Gráfico de Erro)
+O gráfico abaixo demonstra a evolução do erro médio da rede neural ao longo das épocas de treinamento, mostrando a convergência do modelo.
+
+![Gráfico de Convergência da RNA](erro_convergencia.png)
 
 ### 2. Saída Final e Precisão
 A saída final confirma a precisão da classificação. Para as entradas onde a resposta esperada era 0, a rede produziu valores como **0.01**, e para as entradas esperadas como 1, produziu valores de alta confiança (**0.98** e **0.89**).
